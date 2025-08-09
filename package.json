@@ -4,15 +4,16 @@
   "description": "A Tailwind-only React UI library",
   "private": true,
   "scripts": {
-    "dev": "pnpm -r run dev",
+    "dev": "pnpm -C packages/playground dev",
     "build": "pnpm -r run build",
-    "storybook": "pnpm -r run storybook",
-    "build-storybook": "pnpm -r run build-storybook",
+    "storybook": "pnpm -C packages/docs storybook",
+    "build-storybook": "pnpm -C packages/docs build-storybook",
     "test": "pnpm -r run test",
     "typecheck": "pnpm -r run typecheck"
   },
   "devDependencies": {
     "typescript": "^5.0.0",
+    "@types/node": "^20.0.0",
     "tailwindcss": "^3.4.0",
     "postcss": "^8.4.0",
     "autoprefixer": "^10.4.0",
