@@ -2,7 +2,7 @@
 
 A Tailwind-only React UI library built with pnpm workspace.
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -61,7 +61,7 @@ Check TypeScript types:
 pnpm typecheck       # tsc --noEmit
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 elements/
@@ -81,7 +81,7 @@ elements/
     └── usage/                # Usage documentation
 ```
 
-## 📦 Packages
+## Packages
 
 ### `@bitbybit-b3/elements-core`
 
@@ -99,7 +99,7 @@ Storybook documentation for Elements UI library.
 
 Development playground for testing components.
 
-## 🧪 Scripts
+## Scripts
 
 | Command                | Description                    |
 | ---------------------- | ------------------------------ |
@@ -111,7 +111,7 @@ Development playground for testing components.
 | `pnpm test`            | Run tests                      |
 | `pnpm typecheck`       | TypeScript type checking       |
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch
@@ -121,6 +121,6 @@ Development playground for testing components.
 6. Run `pnpm test` to run tests
 7. Submit a pull request
 
-## 📄 License
+## License
 
 This project is licensed under the Apache 2.0 License - see the [LICENSE](LICENSE) file for details.

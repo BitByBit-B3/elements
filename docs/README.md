@@ -2,7 +2,7 @@
 
 Welcome to the Elements UI library documentation. This comprehensive guide will help you understand, contribute to, and use the Elements UI component library.
 
-## 📚 Documentation Structure
+## Documentation Structure
 
 ### For Contributors
 
@@ -31,7 +31,7 @@ Welcome to the Elements UI library documentation. This comprehensive guide will 
 - [**Build Process**](./development/build.md) - Understanding the build pipeline
 - [**Storybook**](./development/storybook.md) - Component development and documentation
 
-## 🚀 Quick Start
+## Quick Start
 
 For quick reference, here are the most common tasks:
 
@@ -67,7 +67,7 @@ pnpm test
 pnpm typecheck
 ```
 
-## 📖 Key Concepts
+## Key Concepts
 
 - **Tailwind-Only**: Components use only Tailwind CSS classes, no custom CSS
 - **Design Tokens**: Centralized theme configuration in `packages/core`
@@ -75,7 +75,7 @@ pnpm typecheck
 - **TypeScript**: Full TypeScript support with comprehensive type definitions
 - **Composable**: Components are designed to work together seamlessly
 
-## 🤝 Contributing
+## Contributing
 
 We welcome contributions! Please read our [Contributing Guide](./contributing/CONTRIBUTING.md) to get started.
 
