@@ -1,0 +1,23 @@
+{
+  "name": "@bitbybit-b3/elements-core",
+  "version": "0.1.0",
+  "description": "Core design tokens and theme for Elements UI library",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "tsup": "^8.0.0"
+  },
+  "peerDependencies": {
+    "tailwindcss": "^3.4.0"
+  }
+}
