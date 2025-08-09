@@ -20,7 +20,7 @@ pnpm install
 Start the development environment:
 
 ```bash
-pnpm -w dev          # start workspace dev tasks (docs/playground)
+pnpm dev             # start playground development
 ```
 
 ### Building
@@ -28,7 +28,7 @@ pnpm -w dev          # start workspace dev tasks (docs/playground)
 Build all packages:
 
 ```bash
-pnpm -w build        # build all packages (tsup)
+pnpm build           # build all packages
 ```
 
 ### Documentation
@@ -36,21 +36,21 @@ pnpm -w build        # build all packages (tsup)
 Start Storybook:
 
 ```bash
-pnpm -w storybook    # start storybook from docs package
+pnpm storybook       # start storybook from docs package
 ```
 
 Build Storybook for production:
 
 ```bash
-pnpm -w build-storybook
+pnpm build-storybook
 ```
 
 ### Testing
 
-Run tests (placeholder for now):
+Run tests:
 
 ```bash
-pnpm -w test
+pnpm test
 ```
 
 ### Type Checking
@@ -58,7 +58,7 @@ pnpm -w test
 Check TypeScript types:
 
 ```bash
-pnpm -w typecheck    # tsc --noEmit
+pnpm typecheck       # tsc --noEmit
 ```
 
 ## 📁 Project Structure
@@ -69,29 +69,31 @@ elements/
 ├── pnpm-workspace.yaml       # Workspace configuration
 ├── tailwind.config.cjs       # Root Tailwind config
 ├── postcss.config.cjs        # Root PostCSS config
-├── packages/
+├── packages/                 # Workspace packages
 │   ├── core/                 # Core design tokens and theme
 │   ├── react/                # React components library
 │   ├── docs/                 # Storybook documentation
 │   └── playground/           # Development playground
-└── .github/
-    └── workflows/
-        └── ci.yml            # CI/CD pipeline
+└── docs/                     # Documentation site
+    ├── architecture/         # Architecture documentation
+    ├── contributing/         # Contributing guidelines
+    ├── development/          # Development documentation
+    └── usage/                # Usage documentation
 ```
 
 ## 📦 Packages
 
 ### `@bitbybit-b3/elements-core`
 
-Core design tokens and theme utilities.
+Core design tokens and theme for Elements UI library.
 
 ### `@bitbybit-b3/elements-react`
 
-React components library built with Tailwind CSS.
+React components library for Elements UI.
 
 ### `@bitbybit-b3/elements-docs`
 
-Storybook documentation site.
+Storybook documentation for Elements UI library.
 
 ### `@bitbybit-b3/elements-playground`
 
@@ -99,23 +101,25 @@ Development playground for testing components.
 
 ## 🧪 Scripts
 
-| Command                   | Description                    |
-| ------------------------- | ------------------------------ |
-| `pnpm install`            | Install all dependencies       |
-| `pnpm -w dev`             | Start workspace dev tasks      |
-| `pnpm -w build`           | Build all packages             |
-| `pnpm -w storybook`       | Start Storybook                |
-| `pnpm -w build-storybook` | Build Storybook for production |
-| `pnpm -w test`            | Run tests                      |
-| `pnpm -w typecheck`       | TypeScript type checking       |
+| Command                | Description                    |
+| ---------------------- | ------------------------------ |
+| `pnpm install`         | Install all dependencies       |
+| `pnpm dev`             | Start playground development   |
+| `pnpm build`           | Build all packages             |
+| `pnpm storybook`       | Start Storybook                |
+| `pnpm build-storybook` | Build Storybook for production |
+| `pnpm test`            | Run tests                      |
+| `pnpm typecheck`       | TypeScript type checking       |
 
 ## 🤝 Contributing
 
 1. Fork the repository
 2. Create a feature branch
 3. Make your changes
-4. Run tests and build
-5. Submit a pull request
+4. Run `pnpm typecheck` to check types
+5. Run `pnpm build` to build packages
+6. Run `pnpm test` to run tests
+7. Submit a pull request
 
 ## 📄 License
 
