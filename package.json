@@ -1,8 +1,35 @@
 {
   "name": "elements",
   "version": "0.1.0",
-  "description": "A Tailwind-only React UI library",
+  "description": "A comprehensive Tailwind-based React UI component library - Components we built for our projects, now shared with the community",
   "private": true,
+  "author": "BitByBit-B3 <https://github.com/BitByBit-B3>",
+  "contributors": [
+    "Thilina2468 (https://github.com/Thilina2468)",
+    "YasogaN (https://github.com/YasogaN)",
+    "Sithumli (https://github.com/Sithumli)",
+    "Methika1234 (https://github.com/Methika1234)",
+    "Thanukamax (https://github.com/Thanukamax)",
+    "d3varaja (https://github.com/d3varaja)"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BitByBit-B3/elements"
+  },
+  "homepage": "https://bitbybit-b3.github.io/elements",
+  "bugs": {
+    "url": "https://github.com/BitByBit-B3/elements/issues"
+  },
+  "keywords": [
+    "react",
+    "ui",
+    "components",
+    "tailwind",
+    "tailwindcss",
+    "design-system",
+    "component-library",
+    "radix-ui"
+  ],
   "scripts": {
     "dev": "pnpm -C packages/playground dev",
     "build": "pnpm -r run build",
@@ -28,5 +55,5 @@
     "node": ">=18.0.0",
     "pnpm": ">=8.0.0"
   },
-  "packageManager": "pnpm@8.0.0"
+  "packageManager": "pnpm@9.0.0"
 }
