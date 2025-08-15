@@ -1,7 +1,20 @@
 {
   "name": "@bitbybit-b3/elements-core",
   "version": "0.1.0",
-  "description": "Core design tokens and theme for Elements UI library",
+  "description": "Core design tokens and theme for Elements UI library - Battle-tested design system from our production projects",
+  "author": "BitByBit-B3 <https://github.com/BitByBit-B3>",
+  "contributors": [
+    "Sithumli (https://github.com/Sithumli)",
+    "Thanukamax (https://github.com/Thanukamax)",
+    "Thilina2468 (https://github.com/Thilina2468)",
+    "d3varaja (https://github.com/d3varaja)",
+    "Methika1234 (https://github.com/Methika1234)",
+    "YasogaN (https://github.com/YasogaN)"
+  ],
+  "homepage": "https://bitbybit-b3.github.io/elements",
+  "bugs": {
+    "url": "https://github.com/BitByBit-B3/elements/issues"
+  },
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
@@ -19,5 +32,12 @@
   },
   "peerDependencies": {
     "tailwindcss": "^3.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BitByBit-B3/elements"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@bitbybit-b3"
   }
 }
