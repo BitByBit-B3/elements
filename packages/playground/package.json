@@ -1,6 +1,6 @@
 {
   "name": "@bitbybit-b3/elements-playground",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "Development playground for Elements UI library",
   "scripts": {
     "dev": "vite",
