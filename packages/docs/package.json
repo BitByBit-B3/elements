@@ -1,6 +1,6 @@
 {
   "name": "@bitbybit-b3/elements-docs",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "description": "Storybook documentation for Elements UI library",
   "scripts": {
     "storybook": "storybook dev -p 6006",
