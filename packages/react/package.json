@@ -1,6 +1,6 @@
 {
   "name": "@bitbybit-b3/elements-react",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "React components library for Elements UI - Production-ready components we built for our projects, now shared with the community. 48+ Tailwind-based components built on Radix UI primitives.",
   "author": "BitByBit-B3 <https://github.com/BitByBit-B3>",
   "contributors": [
