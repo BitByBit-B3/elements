@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://bitbybit-b3.github.io/elements/sitemap.xml
