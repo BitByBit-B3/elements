@@ -41,7 +41,7 @@ jobs:
         uses: actions/configure-pages@v4
 
       - name: Install dependencies (workspace)
-        run: pnpm -w install --frozen-lockfile
+        run: pnpm install --frozen-lockfile
 
       - name: Build with VitePress
         run: |
