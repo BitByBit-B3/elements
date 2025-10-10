@@ -1,7 +1,7 @@
 {
   "name": "elements",
   "version": "0.1.2",
-  "description": "A comprehensive Tailwind-based React UI component library - Components we built for our projects, now shared with the community",
+  "description": "The world's first AI-expandable component library - 48+ production-ready components with intelligent architecture for instant AI-powered contributions",
   "private": true,
   "author": "BitByBit-B3 <https://github.com/BitByBit-B3>",
   "contributors": [
@@ -28,7 +28,15 @@
     "tailwindcss",
     "design-system",
     "component-library",
-    "radix-ui"
+    "radix-ui",
+    "ai-expandable",
+    "ai-powered",
+    "expandable",
+    "intelligent-architecture",
+    "fast-contributions",
+    "auto-scaling",
+    "framework-agnostic",
+    "monorepo"
   ],
   "scripts": {
     "dev": "pnpm -C packages/playground dev",

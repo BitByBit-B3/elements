@@ -1,7 +1,7 @@
 {
   "name": "@bitbybit-b3/elements-react",
   "version": "0.1.2",
-  "description": "React components library for Elements UI - Production-ready components we built for our projects, now shared with the community. 48+ Tailwind-based components built on Radix UI primitives.",
+  "description": "React components for the world's first AI-expandable component library - 48+ production-ready components with intelligent architecture. Built by humans, expanded through AI.",
   "author": "BitByBit-B3 <https://github.com/BitByBit-B3>",
   "contributors": [
     "Methika1234 (https://github.com/Methika1234)",
@@ -104,7 +104,13 @@
     "react-components",
     "shadcn",
     "accessible",
-    "production-ready"
+    "production-ready",
+    "ai-expandable",
+    "ai-powered",
+    "expandable",
+    "intelligent",
+    "fast-contributions",
+    "auto-scaling"
   ],
   "repository": {
     "type": "git",
