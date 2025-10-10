@@ -30,6 +30,8 @@ jobs:
 
       - name: Setup PNPM
         uses: pnpm/action-setup@v4
+        with:
+          version: 9
 
       - name: Setup Node
         uses: actions/setup-node@v4
@@ -40,20 +42,11 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v4
 
-      # Optional: silence ${NODE_AUTH_TOKEN} warnings on PRs
-      - name: Sanitize .npmrc on PRs
-        if: ${{ github.event_name == 'pull_request' }}
-        run: |
-          if [ -f .npmrc ]; then
-            sed -i 's#//registry.npmjs.org/:_authToken=${NODE_AUTH_TOKEN}##g' .npmrc || true
-          fi
-
-      - name: Install dependencies (docs workspace only)
-        run: pnpm install --frozen-lockfile --filter ./docs-site...
+      - name: Install dependencies (workspace)
+        run: pnpm -w install --frozen-lockfile
 
       - name: Build with VitePress
-        working-directory: docs-site
-        run: pnpm build
+        run: pnpm --filter @bitbybit-b3/elements-docs build
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
