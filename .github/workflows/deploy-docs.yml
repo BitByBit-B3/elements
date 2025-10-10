@@ -5,10 +5,8 @@ on:
     branches:
       - main
     paths:
-      - 'docs-site/**'
-      - '.github/workflows/deploy-docs.yml'
-
-  # Allow manual trigger
+      - "docs-site/**"
+      - ".github/workflows/deploy-docs.yml"
   workflow_dispatch:
 
 permissions:
@@ -30,25 +28,34 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Setup PNPM
+        uses: pnpm/action-setup@v4
+        with:
+          version: 9
+
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: 20
-
-      - uses: pnpm/action-setup@v4
+          cache: pnpm
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
 
-      - name: Install dependencies
+      # Optional: silence ${NODE_AUTH_TOKEN} warnings on PRs
+      - name: Sanitize .npmrc on PRs
+        if: ${{ github.event_name == 'pull_request' }}
         run: |
-          cd docs-site
-          pnpm install
+          if [ -f .npmrc ]; then
+            sed -i 's#//registry.npmjs.org/:_authToken=${NODE_AUTH_TOKEN}##g' .npmrc || true
+          fi
+
+      - name: Install dependencies (docs workspace only)
+        run: pnpm install --frozen-lockfile --filter ./docs-site...
 
       - name: Build with VitePress
-        run: |
-          cd docs-site
-          pnpm build
+        working-directory: docs-site
+        run: pnpm build
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
