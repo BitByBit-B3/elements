@@ -1,13 +1,18 @@
-# Elements UI Library
+<div align="center">
+  <img src="./assests/logo.png" alt="Elements UI Logo" width="120" height="120" />
 
-> **A component library experiment built with AI-assisted workflows in mind.**
+  # Elements UI Library
 
-Created by university students exploring how agentic coding tools like Claude Code can transform library development. We're building a collection of UI components with an architecture optimized for AI-assisted contributions.
+  **A component library experiment built with AI-assisted workflows in mind.**
 
-[![npm version](https://img.shields.io/npm/v/@bitbybit-b3/elements-react.svg)](https://github.com/BitByBit-B3/elements/packages)
-[![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](LICENSE)
-[![GitHub](https://img.shields.io/badge/GitHub-BitByBit--B3-181717?logo=github)](https://github.com/BitByBit-B3)
-[![Claude Code](https://img.shields.io/badge/Optimized_for-Claude_Code-7C3AED?logo=anthropic)](https://www.anthropic.com/claude)
+  Created by university students exploring how agentic coding tools like Claude Code can transform library development. We're building a collection of UI components with an architecture optimized for AI-assisted contributions.
+
+  [![npm version](https://img.shields.io/npm/v/@bitbybit-b3/elements-react.svg)](https://github.com/BitByBit-B3/elements/packages)
+  [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](LICENSE)
+  [![GitHub](https://img.shields.io/badge/GitHub-BitByBit--B3-181717?logo=github)](https://github.com/BitByBit-B3)
+  [![Claude Code](https://img.shields.io/badge/Optimized_for-Claude_Code-7C3AED?logo=anthropic)](https://www.anthropic.com/claude)
+
+</div>
 
 ## The Problem With Component Libraries
 
