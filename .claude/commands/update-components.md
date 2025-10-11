@@ -224,21 +224,21 @@ Agent updates:
 Provide a comprehensive summary:
 
 ```markdown
-📦 Elements UI Update Summary
-=============================
+Elements UI Update Summary
+===========================
 
-🔍 Analysis Complete
+Analysis Complete
 - Source: /path/to/project
 - Framework: Next.js 14 (App Router)
 - Components Found: 23
 - Utilities Found: 8
 - Hooks Found: 4
 
-📋 Package Decisions
+Package Decisions
 - Existing: @bitbybit-b3/elements-react (12 components)
 - NEW PACKAGE: @bitbybit-b3/elements-nextjs (11 server/client components)
 
-✅ Components Added (12):
+Components Added (12):
 React Package:
   - Combobox
   - Data Table
@@ -250,12 +250,12 @@ Next.js Package (NEW!):
   - LinkPrefetch (uses next/link)
   - ... (8 more)
 
-🔄 Components Updated (3):
+Components Updated (3):
   - Button (added new 'ghost' variant)
   - Card (performance optimization)
   - Dialog (accessibility improvements)
 
-📝 Dependencies Added:
+Dependencies Added:
 React Package:
   - @tanstack/react-table: ^8.0.0
 
@@ -263,22 +263,22 @@ Next.js Package:
   - next: ^14.0.0
   - sharp: ^0.33.0
 
-🔧 GitHub Actions Updated:
+GitHub Actions Updated:
   - Added publish step for @bitbybit-b3/elements-nextjs
   - Added version bump for new package
 
-📚 Documentation Updated:
+Documentation Updated:
   - Created: docs-site/packages/nextjs.md
   - Updated: README.md (added Next.js package)
   - Updated: docs-site/components/index.md
   - Created 11 new component docs
 
-✅ Build Verification:
+Build Verification:
   - pnpm install: SUCCESS
   - pnpm build: SUCCESS
   - All packages build successfully
 
-🚀 Ready to commit and publish!
+Ready to commit and publish!
 ```
 
 ## Important Notes

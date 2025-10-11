@@ -5,12 +5,12 @@ Elements UI provides 48+ production-ready components that we use in our own proj
 ## Overview
 
 All components are:
-- ✅ Built with Radix UI primitives
-- ✅ Styled with Tailwind CSS
-- ✅ Fully typed with TypeScript
-- ✅ Accessible by default
-- ✅ Customizable with variants
-- ✅ Battle-tested in production
+- Built with Radix UI primitives
+- Styled with Tailwind CSS
+- Fully typed with TypeScript
+- Accessible by default
+- Customizable with variants
+- Battle-tested in production
 
 ## Component Categories
 

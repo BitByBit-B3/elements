@@ -4,14 +4,14 @@ Production-ready React UI components built with Radix UI primitives and Tailwind
 
 ## Features
 
-✅ **49+ Production-Ready Components** - Fully functional and styled
-✅ **Built on Radix UI** - Accessible primitives
-✅ **Tailwind CSS** - Utility-first styling
-✅ **TypeScript Support** - Full type safety via JSDoc
-✅ **Tree-Shakeable** - Import only what you need
-✅ **Zero Config** - Works out of the box
-✅ **Dark Mode Ready** - Built-in theme support
-✅ **Responsive** - Mobile-first design
+- **49+ Production-Ready Components** - Fully functional and styled
+- **Built on Radix UI** - Accessible primitives
+- **Tailwind CSS** - Utility-first styling
+- **TypeScript Support** - Full type safety via JSDoc
+- **Tree-Shakeable** - Import only what you need
+- **Zero Config** - Works out of the box
+- **Dark Mode Ready** - Built-in theme support
+- **Responsive** - Mobile-first design
 
 ## Installation
 
@@ -331,10 +331,10 @@ Components support dark mode via CSS variables. Update your theme:
 Only import what you need - unused components are automatically removed:
 
 ```tsx
-// ✅ Good - Only Button and Card are included in bundle
+// Good - Only Button and Card are included in bundle
 import { Button, Card } from '@bitbybit-b3/elements-react';
 
-// ❌ Avoid - Imports everything (though still tree-shakeable)
+// Avoid - Imports everything (though still tree-shakeable)
 import * as Elements from '@bitbybit-b3/elements-react';
 ```
 

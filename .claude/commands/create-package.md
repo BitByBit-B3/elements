@@ -117,12 +117,12 @@ pnpm build
 ## Example Output
 
 ```
-📦 Package Creation Complete
-===========================
+Package Creation Complete
+=========================
 
-✅ Created: @bitbybit-b3/elements-nextjs
+Created: @bitbybit-b3/elements-nextjs
 
-📁 Structure:
+Structure:
   packages/nextjs/
   ├── src/index.ts
   ├── package.json
@@ -130,13 +130,13 @@ pnpm build
   ├── tsup.config.ts
   └── README.md
 
-🔧 Updated:
+Updated:
   - pnpm-workspace.yaml
   - .github/workflows/publish.yml
   - README.md
   - docs-site/packages/nextjs.md
 
-✅ Build test: SUCCESS
+Build test: SUCCESS
 
-🚀 Ready to add components!
+Ready to add components!
 ```

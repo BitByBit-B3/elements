@@ -17,23 +17,17 @@ hero:
       link: https://github.com/BitByBit-B3/elements
 
 features:
-  - icon: 🚀
-    title: Production-Ready
+  - title: Production-Ready
     details: Components we actually use in our production applications. Battle-tested and continuously updated.
-  - icon: 🎨
-    title: Tailwind-First
+  - title: Tailwind-First
     details: Built with Tailwind CSS for easy customization and styling. No CSS-in-JS overhead.
-  - icon: ♿
-    title: Accessible
+  - title: Accessible
     details: Built on Radix UI primitives ensuring WCAG compliance and keyboard navigation.
-  - icon: 📦
-    title: 48+ Components
+  - title: 48+ Components
     details: Comprehensive collection of components covering all common UI patterns.
-  - icon: 🔧
-    title: TypeScript
+  - title: TypeScript
     details: Fully typed with TypeScript for excellent developer experience.
-  - icon: 🌙
-    title: Dark Mode Ready
+  - title: Dark Mode Ready
     details: All components support dark mode out of the box.
 ---
 
