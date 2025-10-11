@@ -3,8 +3,8 @@ layout: home
 
 hero:
   name: Elements UI
-  text: Production-Ready React Components
-  tagline: Battle-tested components from our real-world projects. 48+ Tailwind-based components built on Radix UI primitives.
+  text: React Components Built by Students
+  tagline: An experimental component library exploring AI-assisted development workflows. 49+ components built with Radix UI and Tailwind CSS.
   image:
     src: /logo.svg
     alt: Elements UI
@@ -17,23 +17,23 @@ hero:
       link: https://github.com/BitByBit-B3/elements
 
 features:
-  - title: Production-Ready
-    details: Components we actually use in our production applications. Battle-tested and continuously updated.
+  - title: AI-Assisted Workflows
+    details: Experimental architecture designed for agentic coding tools like Claude Code. Automated contribution workflows for faster development.
   - title: Tailwind-First
     details: Built with Tailwind CSS for easy customization and styling. No CSS-in-JS overhead.
   - title: Accessible
-    details: Built on Radix UI primitives ensuring WCAG compliance and keyboard navigation.
-  - title: 48+ Components
-    details: Comprehensive collection of components covering all common UI patterns.
+    details: Built on Radix UI primitives with accessibility patterns built-in.
+  - title: 49+ Components
+    details: Growing collection of components covering common UI patterns. Continuously evolving through community contributions.
   - title: TypeScript
-    details: Fully typed with TypeScript for excellent developer experience.
-  - title: Dark Mode Ready
-    details: All components support dark mode out of the box.
+    details: Fully typed with TypeScript for excellent developer experience and autocomplete.
+  - title: Dark Mode Support
+    details: Components support dark mode through Tailwind CSS theming.
 ---
 
-## Built by Real Developers
+## Built by University Students
 
-These aren't just example components - they're the same components we use in our production applications. We share them as we build and improve them for our own projects.
+An experimental project exploring how AI coding assistants can transform open source development. We're learning modern React patterns while building components optimized for agentic workflows with tools like Claude Code.
 
 ## Quick Start
 
@@ -51,12 +51,14 @@ function App() {
 
 ## About BitByBit-B3
 
-We're a team of developers building real-world applications. As we build, we create and refine components. Instead of keeping them private, we share them with the community.
+We're university students experimenting with AI-assisted development. This project explores how tools like Claude Code can make open source contribution more accessible through intelligent automation workflows.
 
-**Team Members:**
-- [d3varaja](https://github.com/d3varaja)
+**Student Team:**
+- [YasogaN](https://github.com/YasogaN)
 - [Methika1234](https://github.com/Methika1234)
 - [Sithumli](https://github.com/Sithumli)
-- [Thanukamax](https://github.com/Thanukamax)
 - [Thilina2468](https://github.com/Thilina2468)
-- [YasogaN](https://github.com/YasogaN)
+- [d3varaja](https://github.com/d3varaja)
+- [Thanukamax](https://github.com/Thanukamax)
+
+**Note**: This is a learning/experimental project. Components use modern patterns but aren't battle-tested for production use.

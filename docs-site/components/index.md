@@ -1,16 +1,16 @@
 # Components
 
-Elements UI provides 48+ production-ready components that we use in our own projects.
+Elements UI provides 49+ UI components as part of our AI-assisted development experiment.
 
 ## Overview
 
-All components are:
-- Built with Radix UI primitives
-- Styled with Tailwind CSS
+Components in this library:
+- Built with Radix UI primitives for accessibility
+- Styled with Tailwind CSS for easy customization
 - Fully typed with TypeScript
-- Accessible by default
-- Customizable with variants
-- Battle-tested in production
+- Follow modern React patterns
+- Support variants and composition
+- Part of a learning/experimental project (not production-tested)
 
 ## Component Categories
 

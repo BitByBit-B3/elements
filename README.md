@@ -1,31 +1,33 @@
 # Elements UI Library
 
-> **The world's first AI-expandable component library. Built by humans, supercharged by AI.**
+> **A component library experiment built with AI-assisted workflows in mind.**
 
-A revolutionary component library with production-ready components and an intelligent architecture designed for instant contributions. Add components in minutes using AI - any AI tool, any workflow.
+Created by university students exploring how agentic coding tools like Claude Code can transform library development. We're building a collection of UI components with an architecture optimized for AI-assisted contributions.
 
 [![npm version](https://img.shields.io/npm/v/@bitbybit-b3/elements-react.svg)](https://github.com/BitByBit-B3/elements/packages)
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](LICENSE)
 [![GitHub](https://img.shields.io/badge/GitHub-BitByBit--B3-181717?logo=github)](https://github.com/BitByBit-B3)
-[![AI-Expandable](https://img.shields.io/badge/AI-Expandable-7C3AED)](https://github.com/BitByBit-B3/elements)
+[![Claude Code](https://img.shields.io/badge/Optimized_for-Claude_Code-7C3AED?logo=anthropic)](https://www.anthropic.com/claude)
 
-## What Makes This Revolutionary?
+## The Problem With Component Libraries
 
-**This isn't just another component library.** Elements UI is the first component library architected from the ground up to be infinitely expandable through AI assistance.
+Contributing to traditional component libraries means hours of manual work: fixing imports, updating configs, managing dependencies, writing docs. It's a barrier that keeps great components trapped in private projects.
 
-### Built by Humans, Expanded by AI
+## How Elements UI Solves This
 
-We're a team of developers who realized: why spend hours on boilerplate when AI can handle it in seconds?
+We've architected a system where **agentic coding tools do the heavy lifting**. Point Claude Code at your components, and automated workflows handle everything from import resolution to CI/CD updates.
 
-- **Hand-crafted by developers**: Real components from real BitByBit-B3 projects
-- **AI-Expandable Architecture**: Intelligent structure that any AI can understand and extend
-- **Zero Configuration Needed**: Drop your components in, AI handles the rest
-- **Framework Agnostic**: Auto-creates packages for React, Vue, Svelte, Next.js - whatever you need
+### What Makes This Different
 
-### The Contribution Revolution
+- **Learning experiment**: Exploring how AI can reshape open source contribution workflows
+- **Workflow automation**: Custom slash commands designed for Claude Code and agentic tools
+- **Framework flexibility**: Architecture that auto-creates packages for React, Vue, Svelte, Next.js
+- **Developer-friendly**: Built by students, for developers curious about AI-assisted development
 
+### Workflow Comparison
+
+**Traditional approach** (2-3 hours per component):
 ```bash
-# Traditional component libraries: 2-3 hours per component
 1. Copy component code
 2. Manually fix all imports
 3. Update package.json dependencies
@@ -34,28 +36,29 @@ We're a team of developers who realized: why spend hours on boilerplate when AI 
 6. Write documentation
 7. Test everything manually
 8. Create PR with all configs
-
-# Elements UI with AI: 5 minutes
-Tell your AI: "Add these components from my project to Elements"
-AI does everything above ⬆️ automatically
 ```
 
-### Intelligent Self-Expanding System
+**With Elements UI** (5 minutes):
+```bash
+# Using Claude Code or similar agentic tools
+/update-components ~/my-project/components
 
-We've built an architecture with **intelligent automation commands**:
+# The automation handles:
+# - Framework detection and package selection
+# - Import path resolution and fixing
+# - Dependency analysis and updates
+# - Build configuration
+# - CI/CD workflow integration
+# - Documentation generation
+```
 
-**Automatic Component Updates**
-- Point AI at any component folder
-- Detects frameworks automatically (React, Vue, Svelte, Next.js)
-- Creates new packages if needed (Vue? Creates @bitbybit-b3/elements-vue)
-- Fixes imports, adds dependencies, updates CI/CD
-- Builds, tests, and documents everything
+### Designed for Agentic Tools
 
-**Automatic Package Creation**
-- Need Next.js components? AI creates the package
-- Need a utils library? AI scaffolds it
-- TypeScript, build tools, CI/CD - all automated
-- No manual configuration required
+Elements UI includes **automation workflows** that agentic coding assistants can execute:
+
+**Component Updates**: Detect frameworks (React, Vue, Svelte, Next.js), create packages as needed, resolve imports, manage dependencies, update CI/CD
+
+**Package Creation**: Scaffold new framework packages with TypeScript, build tools, and GitHub Actions integration—all through natural language instructions
 
 ## Quick Start
 
@@ -77,34 +80,33 @@ function App() {
 }
 ```
 
-## Why This Changes Everything
+## The Vision
 
-### The Problem We Solved
+### The Problem We're Tackling
 
 **Traditional component libraries:**
-- Takes hours to contribute one component
-- Complex build configurations scare away contributors
-- Framework locked (React only, Vue only, etc.)
+- Hours of manual work per contribution
+- Complex build configurations create barriers
+- Framework-specific limitations
 - Manual dependency management
 - Slow iteration cycles
 
-**Our AI-Expandable Solution:**
-- **Minutes instead of hours**: AI handles all boilerplate
-- **Anyone can contribute**: No need to understand build configs
-- **Universal framework support**: Auto-creates packages for any framework
-- **Self-maintaining**: AI manages dependencies and configs
-- **Rapid iteration**: Continuous expansion with zero overhead
+**Our Experiment:**
+- **Automated workflows**: Agentic tools handle boilerplate
+- **Lower barriers**: Simplified contribution through AI assistance
+- **Multi-framework**: Auto-creates packages for different frameworks
+- **Intelligent management**: Automated dependency and config handling
 
-### Real Impact Numbers
+### What We're Learning
 
-- **93% faster contributions**: 5 minutes vs 2-3 hours
-- **Infinite scalability**: Add 100 components as easily as adding 1
-- **Zero framework limits**: React today, Vue tomorrow, Svelte next week
-- **Automatic everything**: Imports, deps, builds, tests, docs
+This is an **active experiment** in AI-assisted development. We're exploring:
+- Can agentic tools like Claude Code truly streamline contribution workflows?
+- How far can we push automation while maintaining code quality?
+- What does the future of collaborative development look like?
 
 ## Components
 
-Production-ready, accessible (WCAG 2.1), built with Radix UI + Tailwind CSS.
+A growing collection of 49+ UI components built with Radix UI primitives and Tailwind CSS. Components focus on accessibility and modern React patterns.
 
 <details>
 <summary><strong>View all components</strong></summary>
@@ -172,16 +174,16 @@ Production-ready, accessible (WCAG 2.1), built with Radix UI + Tailwind CSS.
 
 </details>
 
-## Contributing: The AI-Powered Way
+## Contributing with AI Assistance
 
-### Prerequisites
+### What You'll Need
 
-Any AI coding assistant that can:
+An agentic coding assistant that can:
 - Read and write files
-- Run commands
-- Execute custom slash commands (optional but recommended)
+- Execute terminal commands
+- Run custom slash commands (optional but recommended)
 
-Examples: Claude, GPT-4, Cursor, GitHub Copilot, etc.
+**Optimized for**: Claude Code, Cursor, GitHub Copilot, or similar tools
 
 ### Method 1: Smart Contribution (Recommended)
 
@@ -292,46 +294,46 @@ GitHub Actions that adapt automatically:
 - No manual updates when adding packages
 - Deploy docs automatically
 
-## Why "AI-Expandable" Matters
+## Why This Approach Matters
 
-### For Open Source
+### For Learning
 
-**Traditional bottleneck**: Maintainers must manually review configs, build setups, dependencies
-**Our solution**: AI handles configs, humans review actual code
+**Traditional barrier**: Understanding complex build configs and tooling
+**Our approach**: Agentic tools abstract the complexity
 
-**Result**:
-- More contributors (lower barrier)
-- Faster reviews (focus on code quality)
-- Better components (more time for polish)
+**Benefits**:
+- Lower barrier to open source contribution
+- Focus on component quality, not configuration
+- Learn modern AI-assisted development patterns
 
-### For Innovation
+### For the Future
 
-- **Experiment freely**: Try new frameworks without setup overhead
-- **Community-driven**: Anyone can add support for their favorite framework
-- **Future-proof**: New frameworks? AI adapts automatically
+- **Experimentation**: Try new frameworks without manual setup overhead
+- **Community-driven**: Anyone can extend for their favorite framework
+- **Adaptable**: New frameworks emerge? Architecture accommodates them
 
-### For Real Projects
+### About Our Components
 
-All our components are:
-- **Battle-tested**: Used in production BitByBit-B3 projects
-- **Continuously updated**: When we improve our components, library updates
-- **Production-ready**: TypeScript, accessible, tree-shakeable
-- **Framework flexible**: Need Vue version? AI creates it
+Components built using:
+- **Modern patterns**: TypeScript, React 18+, tree-shakeable exports
+- **Accessibility focus**: Built on Radix UI primitives
+- **Flexible**: Framework packages auto-created as needed
+- **Student project**: Learning and experimenting with AI workflows
 
 ## Packages
 
-### Current (Ready to Use)
+### Current Packages
 
 | Package | Description | Status |
 |---------|-------------|--------|
-| `@bitbybit-b3/elements-react` | React components | ✅ Published |
-| `@bitbybit-b3/elements-core` | Design tokens | ✅ Published |
+| `@bitbybit-b3/elements-react` | React components | Published (experimental) |
+| `@bitbybit-b3/elements-core` | Design tokens | Published (experimental) |
 
-### Future (AI Auto-Created)
+### Potential Future Packages
 
-Packages created automatically when contributors add components:
+Architecture supports auto-creation of framework-specific packages:
 
-- `@bitbybit-b3/elements-nextjs` - Next.js App Router components
+- `@bitbybit-b3/elements-nextjs` - Next.js specific components
 - `@bitbybit-b3/elements-vue` - Vue 3 components
 - `@bitbybit-b3/elements-svelte` - Svelte components
 - `@bitbybit-b3/elements-solid` - SolidJS components
@@ -339,24 +341,24 @@ Packages created automatically when contributors add components:
 - `@bitbybit-b3/elements-hooks` - React hooks library
 - `@bitbybit-b3/elements-icons` - Icon library
 
-**Want a specific framework?** Contribute components and AI creates the package!
+**The system can expand** when contributors add components for new frameworks.
 
 ## Roadmap
 
-### Completed
-- AI-expandable architecture
-- Automatic component updates
-- Automatic package creation
-- Self-scaling CI/CD
-- Production-ready component collection
+### What We've Built
+- Architecture for agentic tool integration
+- Automated component update workflows
+- Automated package creation system
+- Self-scaling CI/CD pipeline
+- Collection of 49+ UI components
 
-### Next Steps
-- [ ] Community component marketplace
-- [ ] VSCode extension for instant updates
-- [ ] AI-powered component testing
-- [ ] Automated migration tools
-- [ ] Smart component recommendations
-- [ ] Component usage analytics
+### What We're Exploring
+- [ ] Community contribution patterns
+- [ ] VSCode extension for workflow automation
+- [ ] Automated testing integration
+- [ ] Cross-framework component patterns
+- [ ] Component composition strategies
+- [ ] Better developer experience tools
 
 ### Framework Support
 - React 18+ (supported)
@@ -369,7 +371,7 @@ Packages created automatically when contributors add components:
 
 **Organization**: [BitByBit-B3](https://github.com/BitByBit-B3)
 
-**Team** (who built this revolutionary system):
+**Team** (university students exploring AI-assisted development):
 - [YasogaN](https://github.com/YasogaN)
 - [Methika1234](https://github.com/Methika1234)
 - [Sithumli](https://github.com/Sithumli)
@@ -377,7 +379,7 @@ Packages created automatically when contributors add components:
 - [d3varaja](https://github.com/d3varaja)
 - [Thanukamax](https://github.com/Thanukamax)
 
-**Want to join?** Contribute using AI and become part of the revolution!
+**Want to experiment with us?** Try the AI-assisted workflow and share your feedback!
 
 ## Documentation
 
@@ -399,44 +401,41 @@ Packages created automatically when contributors add components:
 
 ## FAQ
 
-### What does "AI-Expandable" mean?
+### What makes this different from other component libraries?
 
-We built the library with an intelligent architecture that AI tools can understand and extend automatically. Instead of manual configuration, you tell AI what you want and it handles the rest.
+We're experimenting with **agentic workflows** for library contributions. Instead of manually managing build configs and dependencies, tools like Claude Code can handle that automatically through custom automation commands.
 
 ### Was this built by AI?
 
-No! Built by our team at BitByBit-B3. But we designed it to work seamlessly WITH AI tools for contributions and expansion.
+No! Built by our team of university students. We designed the architecture to work seamlessly WITH agentic coding tools, but humans wrote the code and make the decisions.
 
-### What AI tools work with this?
+### What tools work with this?
 
-Any AI coding assistant! We use slash commands in our workflow, but the architecture works with Claude, GPT-4, Cursor, Copilot, or any AI that can read/write files.
+The architecture is optimized for **Claude Code**, but works with any agentic coding assistant that can:
+- Read/write files
+- Execute terminal commands
+- Run custom slash commands
 
-### Do I need AI to use the components?
+Also compatible with: Cursor, GitHub Copilot, and similar tools.
 
-Nope! Install like any npm package:
+### Do I need AI tools to use the components?
+
+Not at all! Install and use like any npm package:
 ```bash
 npm install @bitbybit-b3/elements-react
 ```
 
-You only need AI if you want to contribute using our fast workflow.
+Agentic tools are only needed if you want to contribute using our automated workflows.
 
-### Is it production-ready?
+### Is this production-ready?
 
-Absolutely! All components are:
-- Used in BitByBit-B3 production projects
-- Fully typed with TypeScript
-- Accessible (WCAG 2.1)
-- Tree-shakeable for optimal bundle size
-- Continuously tested and updated
+This is an **experimental/learning project** by university students. Components use modern patterns (TypeScript, Radix UI, Tailwind), but consider it a proof-of-concept for AI-assisted development rather than battle-tested production code.
 
-See [PRODUCTION-READY-CHECKLIST.md](PRODUCTION-READY-CHECKLIST.md) for 100+ verification points.
+Use at your own discretion and feel free to contribute improvements!
 
-### How is this different from other libraries?
+### Why build this?
 
-**Traditional**: Fixed components, hard to contribute, framework-locked
-**Elements UI**: Infinite expansion, AI-powered contributions, multi-framework
-
-We're not replacing component libraries - we're revolutionizing how they grow.
+We wanted to explore: Can agentic tools like Claude Code actually streamline open source contribution? This project is our answer—an experiment in making contribution workflows faster and more accessible through intelligent automation.
 
 ## License
 
@@ -452,4 +451,4 @@ Apache 2.0 - See [LICENSE](LICENSE) for details.
 
 ---
 
-**Built by humans, supercharged by AI** | [BitByBit-B3](https://github.com/BitByBit-B3) | The world's first AI-expandable component library
+**An experiment in AI-assisted development** | Built by [BitByBit-B3](https://github.com/BitByBit-B3) university students | Optimized for Claude Code and agentic workflows
