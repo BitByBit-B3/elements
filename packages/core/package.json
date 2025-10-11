@@ -1,6 +1,6 @@
 {
   "name": "@bitbybit-b3/elements-core",
-  "version": "0.1.16",
+  "version": "0.1.17",
   "description": "Core design tokens and theme for Elements UI library - Battle-tested design system from our production projects",
   "author": "BitByBit-B3 <https://github.com/BitByBit-B3>",
   "contributors": [
