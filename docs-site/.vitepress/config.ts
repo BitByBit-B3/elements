@@ -2,8 +2,9 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   title: 'Elements UI',
-  description: 'Production-ready React components built for our projects, now shared with the community. 48+ Tailwind-based components built on Radix UI primitives.',
+  description: 'An experimental component library exploring AI-assisted development workflows. 49+ React components built by university students with Radix UI and Tailwind CSS.',
   base: '/elements/',
+  ignoreDeadLinks: true,
 
   head: [
     ['link', { rel: 'icon', href: '/elements/favicon.ico' }],
@@ -11,13 +12,13 @@ export default defineConfig({
     ['meta', { name: 'og:type', content: 'website' }],
     ['meta', { name: 'og:locale', content: 'en' }],
     ['meta', { name: 'og:site_name', content: 'Elements UI' }],
-    ['meta', { name: 'og:title', content: 'Elements UI - Production-Ready React Components' }],
-    ['meta', { name: 'og:description', content: 'Battle-tested components from real-world projects. 48+ Tailwind-based React components built on Radix UI.' }],
+    ['meta', { name: 'og:title', content: 'Elements UI - AI-Assisted Component Library Experiment' }],
+    ['meta', { name: 'og:description', content: 'A university student project exploring how AI tools like Claude Code can transform open source development. 49+ React components optimized for agentic workflows.' }],
     ['meta', { name: 'og:url', content: 'https://bitbybit-b3.github.io/elements/' }],
     ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
-    ['meta', { name: 'twitter:title', content: 'Elements UI - Production-Ready React Components' }],
-    ['meta', { name: 'twitter:description', content: 'Battle-tested components from real-world projects. 48+ Tailwind-based React components.' }],
-    ['meta', { name: 'keywords', content: 'react, components, tailwind, tailwindcss, ui library, radix ui, typescript, design system, component library' }],
+    ['meta', { name: 'twitter:title', content: 'Elements UI - AI-Assisted Component Library' }],
+    ['meta', { name: 'twitter:description', content: 'Experimental React components optimized for AI-assisted workflows with Claude Code, Cursor, and similar tools.' }],
+    ['meta', { name: 'keywords', content: 'react, components, tailwind, tailwindcss, ui library, radix ui, typescript, design system, component library, ai assisted, claude code, agentic workflows, automation' }],
     ['meta', { name: 'author', content: 'BitByBit-B3' }],
   ],
 

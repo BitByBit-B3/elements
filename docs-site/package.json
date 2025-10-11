@@ -1,6 +1,7 @@
 {
   "name": "@bitbybit-b3/docs-site",
   "version": "0.1.0",
+  "type": "module",
   "description": "Documentation site for Elements UI",
   "scripts": {
     "dev": "vitepress dev",
